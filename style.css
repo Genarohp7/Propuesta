@@ -94,3 +94,34 @@ footer {
   background-color: #007bff;
   color: #fff;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .image-container img {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  .image-container img {
+    max-width: 150px;
+  }
+}
