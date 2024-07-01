@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MiniMi</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo-container">
+        <img src="/assets/gecodelogo.webp" alt="Logo de GeCode" class="logo" />
+      </div>
+      <header>
+        <h1>Tienda en Línea de MiniMi</h1>
+        <p>Cliente: Tania Castillo</p>
+      </header>
+      <section>
+        <h2>Objetivo General</h2>
+        <p>
+          Crear una tienda en línea atractiva y eficiente para la venta de
+          muebles para niños, optimizando la experiencia del usuario y
+          gestionando de manera eficaz el inventario y los envíos.
+        </p>
+      </section>
+      <div class="image-container">
+        <img src="/assets/Diseño.webp" alt="Imagen de diseño" />
+      </div>
+      <section>
+        <h2>Fases del Proyecto</h2>
+        <div class="phase">
+          <h3>1. Diseño</h3>
+          <ul>
+            <li>
+              <strong>Requerimientos:</strong> Diseño de una interfaz atractiva
+              y amigable para usuarios, adaptada a dispositivos móviles.
+            </li>
+            <li>
+              <strong>Entrega:</strong> Mockups y prototipos interactivos.
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="image-container">
+        <img src="/assets/desarrollo.webp" alt="Imagen de desarrollo" />
+      </div>
+      <section>
+        <div class="phase">
+          <h3>2. Desarrollo</h3>
+          <ul>
+            <li>
+              <strong>Requerimientos:</strong> Implementación del diseño en una
+              plataforma de comercio electrónico robusta, integración con Stripe
+              para pagos en línea.
+            </li>
+            <li><strong>Entrega:</strong> Tienda en línea funcional.</li>
+          </ul>
+        </div>
+      </section>
+      <div class="image-container">
+        <img
+          src="/assets/implemeta tecnologica.webp"
+          alt="Imagen de implementación tecnológica"
+        />
+      </div>
+      <section>
+        <div class="phase">
+          <h3>3. Implementación Tecnológica</h3>
+          <ul>
+            <li>
+              <strong>Requerimientos:</strong> Sistema de gestión de inventarios
+              y envíos, integración con sistemas de seguimiento de pedidos.
+            </li>
+            <li>
+              <strong>Entrega:</strong> Panel de administración y herramientas
+              de gestión.
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="image-container">
+        <img src="/assets/movil.webp" alt="Imagen de optimización móvil" />
+      </div>
+      <section>
+        <div class="phase">
+          <h3>4. Optimización Móvil</h3>
+          <ul>
+            <li>
+              <strong>Requerimientos:</strong> Adaptación y optimización de la
+              tienda para dispositivos móviles.
+            </li>
+            <li>
+              <strong>Entrega:</strong> Experiencia de usuario optimizada en
+              móviles.
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="image-container">
+        <img src="/assets/analitics.webp" alt="Imagen de Google Analytics" />
+      </div>
+      <section>
+        <div class="phase">
+          <h3>5. Google Analytics (valor agregado)</h3>
+          <ul>
+            <li>
+              <strong>Requerimientos:</strong> Configuración e integración de
+              Google Analytics para el seguimiento y análisis del tráfico y
+              comportamiento del usuario.
+            </li>
+            <li>
+              <strong>Entrega:</strong> Informes detallados y panel de análisis.
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2>Planeación</h2>
+        <div class="phase">
+          <h3 onclick="toggleVisibility('brief')">
+            Brief Inicial <span class="arrow">&#x25B6;</span>
+          </h3>
+          <p id="brief" style="display: none">
+            Primero, te entregaremos un documento llamado "brief" donde te
+            haremos preguntas sobre tus necesidades y expectativas para la
+            tienda en línea. Queremos entender lo que esperas del proyecto.
+          </p>
+        </div>
+        <div class="phase">
+          <h3 onclick="toggleVisibility('propuestas')">
+            Propuestas Iniciales <span class="arrow">&#x25B6;</span>
+          </h3>
+          <p id="propuestas" style="display: none">
+            Con la información del brief, empezaremos a proponer ideas para tu
+            tienda. Te mostraremos ejemplos de diseño, posibles funcionalidades
+            y cómo podríamos organizar tu catálogo de productos.
+          </p>
+        </div>
+        <div class="phase">
+          <h3 onclick="toggleVisibility('aprobacion')">
+            Aprobación <span class="arrow">&#x25B6;</span>
+          </h3>
+          <p id="aprobacion" style="display: none">
+            Una vez que tengamos una idea clara y consolidada, te pediremos tu
+            aprobación para seguir adelante. En esta fase, también confirmaremos
+            el logo y la paleta de colores que utilizaremos.
+          </p>
+        </div>
+      </section>
+      <section>
+        <h2>Diseño</h2>
+        <div class="phase">
+          <h3 onclick="toggleVisibility('mockups')">
+            Mockups <span class="arrow">&#x25B6;</span>
+          </h3>
+          <p id="mockups" style="display: none">
+            Crearemos representaciones visuales (llamadas mockups) de cómo se
+            verá tu tienda en línea. Estos incluyen todos los detalles visuales
+            como los colores, las fuentes, y la disposición de los elementos en
+            la página.
+          </p>
+        </div>
+        <div class="phase">
+          <h3 onclick="toggleVisibility('revision')">
+            Revisión <span class="arrow">&#x25B6;</span>
+          </h3>
+          <p id="revision" style="display: none">
+            Te mostraremos estos diseños para que puedas ver cómo se verá tu
+            tienda. Aquí podrás dar tu opinión y solicitar ajustes si es
+            necesario.
+          </p>
+        </div>
+      </section>
+      <section>
+        <h2>Desarrollo</h2>
+        <div class="phase">
+          <h3 onclick="toggleVisibility('implementacion')">
+            Implementación <span class="arrow">&#x25B6;</span>
+          </h3>
+          <p id="implementacion" style="display: none">
+            Con los diseños aprobados, comenzaremos a construir la tienda en
+            línea real. Esto incluye programar todas las funcionalidades, como
+            el catálogo de productos y la integración con Stripe para los pagos
+            en línea.
+          </p>
+        </div>
+        <div class="phase">
+          <h3 onclick="toggleVisibility('progreso')">
+            Progreso Regular <span class="arrow">&#x25B6;</span>
+          </h3>
+          <p id="progreso" style="display: none">
+            Te daremos acceso para que puedas ver el progreso de tu tienda en
+            tiempo real. Tendremos reuniones periódicas para revisar el avance y
+            hacer ajustes según sea necesario.
+          </p>
+        </div>
+      </section>
+      <section>
+        <h2>Implementación Tecnológica</h2>
+        <div class="phase">
+          <h3 onclick="toggleVisibility('gestion')">
+            Gestión de Inventarios y Envíos <span class="arrow">&#x25B6;</span>
+          </h3>
+          <p id="gestion" style="display: none">
+            Implementaremos sistemas que te permitirán gestionar fácilmente tu
+            inventario y los envíos de tus productos.
+          </p>
+        </div>
+        <div class="phase">
+          <h3 onclick="toggleVisibility('panel')">
+            Panel de Administración <span class="arrow">&#x25B6;</span>
+          </h3>
+          <p id="panel" style="display: none">
+            Te daremos acceso a un panel de administración donde podrás
+            controlar todos los aspectos de tu tienda.
+          </p>
+        </div>
+      </section>
+      <section>
+        <h2>Optimización Móvil</h2>
+        <div class="phase">
+          <h3 onclick="toggleVisibility('adaptacion')">
+            Adaptación a Móviles <span class="arrow">&#x25B6;</span>
+          </h3>
+          <p id="adaptacion" style="display: none">
+            Nos aseguraremos de que tu tienda se vea y funcione perfectamente en
+            dispositivos móviles como teléfonos y tabletas.
+          </p>
+        </div>
+      </section>
+      <section>
+        <h2>Google Analytics</h2>
+        <div class="phase">
+          <h3 onclick="toggleVisibility('configuracion')">
+            Configuración de Análisis <span class="arrow">&#x25B6;</span>
+          </h3>
+          <p id="configuracion" style="display: none">
+            Integraremos Google Analytics para que puedas ver estadísticas
+            detalladas sobre el comportamiento de los usuarios en tu tienda.
+            Esto incluye información sobre cuántas personas visitan tu tienda,
+            qué productos ven, y mucho más.
+          </p>
+        </div>
+      </section>
+      <section>
+        <h2>Pruebas y Capacitación</h2>
+        <div class="phase">
+          <h3 onclick="toggleVisibility('pruebas')">
+            Pruebas <span class="arrow">&#x25B6;</span>
+          </h3>
+          <p id="pruebas" style="display: none">
+            Antes de la entrega final, realizaremos pruebas exhaustivas para
+            asegurarnos de que todo funcione perfectamente.
+          </p>
+        </div>
+        <div class="phase">
+          <h3 onclick="toggleVisibility('capacitacion')">
+            Capacitación <span class="arrow">&#x25B6;</span>
+          </h3>
+          <p id="capacitacion" style="display: none">
+            Te ofreceremos una capacitación para que sepas cómo usar todas las
+            herramientas y funcionalidades de tu nueva tienda en línea.
+          </p>
+        </div>
+      </section>
+      <section>
+        <h2>Entrega Final</h2>
+        <div class="phase">
+          <h3 onclick="toggleVisibility('lanzamiento')">
+            Lanzamiento <span class="arrow">&#x25B6;</span>
+          </h3>
+          <p id="lanzamiento" style="display: none">
+            Una vez que todo esté en orden, lanzaremos tu tienda en línea.
+            Seguiremos disponibles para ayudarte con cualquier duda o ajuste
+            necesario después del lanzamiento.
+          </p>
+        </div>
+      </section>
+      <section>
+        <h2>Cotización Total</h2>
+        <p>- <strong>Costo Total:</strong> $15,000 MXN + IVA</p>
+      </section>
+      <section>
+        <h2>Servico Extra</h2>
+        <p>
+          Se ofrece que durante el primer mes durante cada semana se generen dos
+          visuales o artes que el cliente podra utilizar para su publicidad
+        </p>
+      </section>
+
+      <section>
+        <h2>Cláusulas</h2>
+        <p>
+          El proyecto se llevará a cabo tal como se describe en el documento,
+          pero es importante mencionar que en caso de que se requieran licencias
+          especiales y/o adicionales, estas correrán por cuenta del cliente,
+          mismas que se notificarán con tiempo de anticipación.
+        </p>
+      </section>
+    </div>
+    <script>
+      function toggleVisibility(id) {
+        const element = document.getElementById(id);
+        const arrow = element.previousElementSibling.querySelector(".arrow");
+        if (element.style.display === "none" || element.style.display === "") {
+          element.style.display = "block";
+          arrow.innerHTML = "&#x25BC;";
+        } else {
+          element.style.display = "none";
+          arrow.innerHTML = "&#x25B6;";
+        }
+      }
+    </script>
+  </body>
+</html>
