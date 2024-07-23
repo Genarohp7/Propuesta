@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Proyecto de Marca y Página Web</title>
     <link rel="stylesheet" href="./style.css" />
-    <script src="/script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+    <script src="./script.js" defer></script>
   </head>
   <body>
     <div class="container">
@@ -73,6 +74,8 @@
           la página web con la intención de depurar dudas y tener aprobado por
           parte del cliente la propuesta para dar paso a la creación.
         </p>
+        <br />
+        <br />
       </section>
 
       <section>
@@ -167,6 +170,11 @@
         </p>
       </section>
     </div>
+
+    <div class="pdf-button-container">
+      <button id="generate-pdf">Generar PDF</button>
+    </div>
+
     <script>
       function toggleVisibility(id) {
         const element = document.getElementById(id);
@@ -179,6 +187,13 @@
           arrow.innerHTML = "&#x25B6;";
         }
       }
+
+      document
+        .getElementById("generate-pdf")
+        .addEventListener("click", function () {
+          const element = document.querySelector(".container");
+          html2pdf().from(element).save("proyecto.pdf");
+        });
     </script>
   </body>
 </html>

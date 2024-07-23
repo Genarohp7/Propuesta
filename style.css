@@ -95,6 +95,27 @@ footer {
   color: #fff;
 }
 
+.pdf-button-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#generate-pdf {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+#generate-pdf:hover {
+  background-color: #0056b3;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .container {
